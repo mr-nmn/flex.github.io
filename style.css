@@ -1,0 +1,142 @@
+*{
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.main{
+    background: red;
+    width: 100vw;
+    height: 80vh;
+    display:flex;
+   
+}
+.bg{ 
+    margin-left: auto;
+    background: blue;
+    /* width: 45vw; */
+    max-width: 55vw;
+    /* height: 80vh; */
+    max-height: 80vh;
+    overflow:hidden;
+    float: right;
+}
+.bg img{
+    height: 80vh;
+    width:50vw;
+}
+.submain{
+    display:flex;
+    background: rgb(255, 255, 255);
+    width:55vw;
+    max-height:80vh;
+    padding-top: 70px;
+    float:right;     
+}
+.logo{
+    width:100px;
+    margin-left:80px;
+    display: inline;
+    float: left;
+}
+.btn{
+    height: 90px;
+    display: flex;
+    margin-left: 280px;
+    cursor: pointer;
+}
+.upper{
+    width: 150px;
+    height:50px;
+    font-size: 25px;
+    background:black;
+    color:white;
+    margin-right:10px;
+    margin-top: 30px;	
+    cursor: pointer;
+}
+.login{
+    font-size: 30px;
+    padding:36px;
+}
+.textmain{
+    width: 300px;
+}
+.search{
+    display: flex;
+    width: 700px;
+}
+.tx{
+    width:528px;
+    height:55px;
+    font-size: 15px;
+}
+body {
+overflow-x: hidden;
+}
+.btn2{
+    margin-left: 0px;
+    width:150px;
+    height:60px;
+    font-size:20px;
+    background:#f68620;
+    color:white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.ttl{
+    width: 500px;
+    /* height: 50px; */
+    font-weight:bolder;
+    font-size: 50px;
+    margin-bottom:10px;
+    animation:ani 8s ease-in-out infinite alternate-reverse;
+}
+@keyframes ani{
+    0% {opacity: 100%;}
+    10%{opacity: 90%;}
+    20%{opacity: 80%;}
+    30%{opacity: 70%;}
+    40%{opacity: 60%;}
+    50%{opacity: 50%;}
+    60%{opacity: 0%;}
+    70%{ opacity: 0%;}
+    80%{ opacity: 0%;}
+    90%{ opacity: 0%;}
+    100%{ opacity: 0%;}
+}
+.subttl{
+   width: 600px;
+   font-size: x-large;
+}
+.tt2{
+    width: 500px;
+    /* height: 50px; */
+    font-weight:bolder;
+    font-size: 50px;
+    margin-bottom:10px;
+    margin-top: -68px;
+    animation:ani2 8s ease-in-out infinite alternate-reverse;
+}
+@keyframes ani2{
+    0% {opacity: 0%;}
+    10%{opacity: 0%;}
+    20%{opacity: 0%;}
+    30%{opacity: 0%;}
+    40%{opacity: 0%;}
+    50%{opacity: 50%;}
+    60%{opacity: 60%;}
+    70%{ opacity: 70%;}
+    80%{ opacity: 80%;}
+    90%{ opacity: 90%;}
+    100%{ opacity: 100%;}
+}
+.child{
+    vertical-align: middle;
+    width:100vw;
+    background-color: #f68620;
+}
+.childimg{
+    width: 100vw;
+}
